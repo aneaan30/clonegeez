@@ -539,7 +539,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("Groups", url="https://t.me/roomsukasuka"),
-                    InlineKeyboardButton("Channel", url="https://t.me/puitiszone"),
+                    InlineKeyboardButton("Channel", url="https://t.me/guitarlama"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -672,7 +672,7 @@ async def deezer(client: Client, message_: Message):
             [
                 [
                     InlineKeyboardButton("📖 Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/puitiszone"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/guitarlama"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -801,7 +801,7 @@ async def jiosaavn(client: Client, message_: Message):
             [
                 [
                     InlineKeyboardButton("📖 Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/puitiszone"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/guitarlama"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
